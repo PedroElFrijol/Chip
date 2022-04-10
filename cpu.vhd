@@ -24,7 +24,7 @@ begin
     begin
         if(reset = "0") then
             addressRegister <= (others => "0"); --start executing at memory location 0
-            states <="000";
+            states <= "000";
             accumulator <= (others => "0");
             prgmCount <= (others => "0");
         elsif rising_edge(clock) then --It will return true when the signal changes from a low value ('0' or 'L') to a high value ('1' or 'H'). 
