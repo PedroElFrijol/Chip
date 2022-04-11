@@ -7,7 +7,6 @@ entity tb_cpu is
 	);
 end;
 
-
 architecture main of tb_cpu is
 
 component CPU8BIT is
